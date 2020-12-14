@@ -13,3 +13,5 @@
 [Ascii]http://www.asciitable.com/
 
 [String to Ascii ] https://stackoverflow.com/questions/94037/convert-character-to-ascii-code-in-javascript 
+
+[Slice] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice 
