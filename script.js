@@ -11,7 +11,14 @@ function writePassword() {
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+// generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", function() {
+  
+});
+
+
+ 
+
 
 
 var passwordLength = prompt("How many characters would you like your password have?")
@@ -23,22 +30,22 @@ if (passwordLength > 7 && passwordLength< 129){
 else {
   alert("Your selection must a number between 8 and 128");
 }
-var passwordTypes = ["uppercase","lowercase","number","special"]
-var passwordSelection = []
+var passwordTypes = ["uppercase","lowercase","number","special"];
+var passwordSelection = [];
 var passwordUppercase
 var passwordLowercase
 var passwordNumber
 var paswordSpecial 
 
 // Does not work as expected 
-
-// for (var i =0; i < passwordTypes.length; i++) {
-//   passwordTypes = prompt("If you would like to include " + passwordTypes[i] + " characters in your password type :" + passwordTypes[i++]);
+// debugger
+// for (var i = 0; i < passwordTypes.length; i++) {
+//   passwordTypes = prompt("If you would like to include "  + passwordTypes[i] + " characters in your password type :" + passwordTypes[i] );
 //   passwordTypes = passwordTypes.toLowerCase();
 //   passwordSelection.push(passwordTypes);
   
 // }
-// for (var j =0; j < 4; j++) {
+// for (var j = 0; i < 4; j++) {
 // console.log(passwordSelection)
 // }
 
@@ -65,4 +72,14 @@ passwordSpecial = passwordSpecial.toLowerCase();
 passwordSpecial = passwordSpecial.charAt (0);
 passwordSelection.push(passwordSpecial);
 
+alert("Uppercase is u / Lowercase is l/ Number is n/ Special Charter is s  &  You selected " + passwordSelection );
 
+
+// for (var i = 0; i < 10; i++) {
+
+// if (passwordSelection.includes ("u","l","n","s") ) {
+  for (var i = 0; i < 10; i++) {
+  passwordText =  (Math.floor(Math.random() *93) +33);
+// }
+}
+console.log (passwordText);
