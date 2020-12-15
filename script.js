@@ -106,7 +106,7 @@ if (passwordSelection.includes("u", "l", "n", "s")) {
     console.log(password);
 
     password.slice(0, passwordLength);
-    password= String.fromCharCode (password);
+    // password= String.fromCharCode (password);
 
   }
 //  Will Utterback helped me to create these functions - Math is not my strength 
@@ -131,6 +131,12 @@ function special(){
 }
 
 }
+
+// for (var i=0; i< passwordLength; i++) {
+
+//   if (passwordSelection === password )
+
+
 
 
 
